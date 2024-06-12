@@ -82,7 +82,7 @@ The frontend is organized into:
 
 ## How to Run the Project
 
-1.  Clone or download the repository from GitHub: https://github.com/sloomabh/Santa-form-react
+1.  Clone or download the repository from GitHub: `https://github.com/sloomabh/Santa-form-react`
 
 2.  Install project dependencies for both frontend and backend:
 
@@ -104,7 +104,7 @@ npm run dev
 
 5. **Access the App**: Open `http://localhost:3000` in your web browser.
 
-## How to Run the Project
+## How to test the frontend
 
 1.  Navigate to the `frontend` directory
 
