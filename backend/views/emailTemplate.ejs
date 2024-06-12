@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pending Requests</title>
+  </head>
+  <body>
+    <h1>Pending Requests for Santa</h1>
+    <ul>
+      <% pendingRequests.forEach(request => { %>
+      <li>
+        <strong>Username:</strong> <%= request.username %><br />
+        <strong>Request:</strong> <%= request.wish %><br />
+        <strong>Address:</strong> <%= request.address %>
+      </li>
+      <% }) %>
+    </ul>
+  </body>
+</html>
